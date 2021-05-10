@@ -1,39 +1,50 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es" dir="ltr">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
-      integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
-      crossorigin="anonymous"
-    />
+    
+    <!-- Css de bootstrap -->
+    <link 
+    rel="stylesheet" 
+    href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" 
+    integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" 
+    crossorigin="anonymous"/>
+
+    <!-- Jquery JS -->
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
       integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
       crossorigin="anonymous"
     ></script>
+
+    <!-- Bootstrap JS 4.6 -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
       crossorigin="anonymous"
     ></script>
+
+    <!-- Font awesome -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
       integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
       crossorigin="anonymous"
     />
+
+    <!-- Mi estilo -->
     <link rel="stylesheet" href="./assets/css/style.css" />
     <title>Viajes Chile</title>
   </head>
   <body>
-    <!-- Carousel -->
+    
+    <!-- Carousel e icono-->
+    <header class="header">
     <div class="row">
       <div class="col-md-12">
-        <nav class="navbar navbar-expand-lg">
+        <nav class="navbar navbar-expand-lg fixed-top">
           <a class="navbar-brand" href="#">
             <img src="./assets/img/viajes.svg" alt="avion" height="40" />
             Viajes Chile</a
@@ -50,7 +61,7 @@
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav text-right">
+            <div class="navbar-nav text-right ml-auto">
               <a class="nav-link active" href="#"
                 >Inicio <span class="sr-only">(current)</span></a
               >
@@ -60,6 +71,7 @@
             </div>
           </div>
         </nav>
+      </header>
         <div
           id="carouselExampleControls"
           class="carousel slide"
@@ -110,6 +122,8 @@
       </div>
     </div>
     <div class="p-5">
+<!-- Fin carousel       -->
+
       <!-- Quienes somos -->
       <div class="row bg-tarea">
         <div class="col-md-12 text-center mt-5">
@@ -179,8 +193,12 @@
       <br />
       <div class="row">
         <div class="col-md-12 text-center mt-5">
+
+<!-- Destacados -->
           <h1>Destacados</h1>
           <hr />
+
+          <!-- Card 1 -->
         </div>
         <div class="col-md-3">
           <div class="card">
@@ -200,6 +218,8 @@
             </div>
           </div>
         </div>
+
+        <!-- Card 2 -->
         <div class="col-md-3">
           <div class="card">
             <img
@@ -219,6 +239,8 @@
             </div>
           </div>
         </div>
+
+        <!-- Card 3 -->
         <div class="col-md-3">
           <div class="card">
             <img
@@ -238,6 +260,8 @@
             </div>
           </div>
         </div>
+
+        <!-- Card 4 -->
         <div class="col-md-3">
           <div class="card">
             <img
@@ -258,6 +282,7 @@
           </div>
         </div>
       </div>
+
       <!-- Contacto -->
       <br />
       <br />
@@ -265,6 +290,11 @@
         <div class="col-md-12 text-center mt-5">
           <h1>Contacto</h1>
           <hr />
+
+<!-- Mi Typeform -->
+<div class="typeform-widget" data-url="https://form.typeform.com/to/BGPg0liS?typeform-medium=embed-snippet" style="width: 100%; height: 500px;"></div> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script>
+
+<!-- Footer -->
         </div>
         <div class="col-md-12"></div>
       </div>

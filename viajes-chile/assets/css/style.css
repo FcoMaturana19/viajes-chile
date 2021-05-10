@@ -1,23 +1,27 @@
 body {
-  color: white;
+  color: rgb(238, 232, 232);
   background-color: black;
 }
-.header {
-}
+
+.text-white-50
+
 .header .navbar {
   background-color: transparent !important;
 }
-nav.navbar {
-  background-color: transparent !important;
+
+
+.navbar {
+  background-color: transparent;
+  background: transparent;
 }
 
 hr {
   height: 2px;
-  background: #18a4b8;
+  background: #59c7c7;
 }
 
 .box-blue {
-  background: #16a3b8;
+  background:#59c7c7;
   padding: 4px;
 }
 .box-blue i {
